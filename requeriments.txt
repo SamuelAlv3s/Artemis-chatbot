@@ -1,0 +1,8 @@
+nltk
+beautifulsoup4
+chardet
+pyfiglet
+rich
+spacy
+chatterbot
+unidecode
