@@ -105,8 +105,7 @@ def hasValidKeyword(text):
 
 def welcomeMessage():
     print(figlet.renderText(prefix))
-    print(f"Olá, eu sou {prefix}, assistente pessoal.")
-    print(f'Para desligar, diga "{prefix}, desligar"')
+    print("Para desligar, digite desligar")
     print("")
 
 
@@ -116,7 +115,6 @@ def process_input(raw_input):
         if unidecode(raw_input.lower()) == unidecode(question.lower()):
             matchQuestion = question
             break
-    print("matchQuestion: ", matchQuestion)
     return matchQuestion
 
 
